@@ -9,20 +9,23 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://fancy.parivahan.gov.in/fancy/faces/public/applicantSearchByNumber.xhtml" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <h1 className='tr'>Hello World</h1>
       </div>
-      <h1>Vinoth + Kumar</h1>
+      <div>
+      <button onClick={() => setCount((count) => count + 2)}>
+          count is {count}
+        </button>
+        <h1>Welcome to our project</h1>
+      </div>
+      <h1 class="gt">Vinoth + Kumar</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 2)}>
           count is {count}
         </button>
         <p>
+        <a>
           Edit <code>src/App.jsx</code> and save to test HMR
+          </a>
         </p>
       </div>
       <p className="read-the-docs">
